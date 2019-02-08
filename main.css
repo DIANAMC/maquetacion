@@ -5,7 +5,8 @@
   color: var(--color4);
 }
 :root{
-	--color1: #e05c2a;
+	/* --color1: #e05c2a; */
+	--color1: red;
 	--color2: #272b36;
 	--color3: #4a5061;
 	--color4: #fafafa;

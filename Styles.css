@@ -14,8 +14,8 @@ body{
   padding-top: 4vh;
   position: relative;
   z-index: 2;
-  background-color: #11192D;
-
+  /* background-color: #11192D; */
+  background-color: aqua;
 
 }
 /*codigo por marcela*/
