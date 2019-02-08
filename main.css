@@ -5,11 +5,11 @@
   color: var(--color4);
 }
 :root{
-	/* --color1: #e05c2a; */
-	--color1: red;
+	--color1: #e05c2a;
 	--color2: #272b36;
 	--color3: #4a5061;
 	--color4: #fafafa;
+
 };
 body{
 	background: var(--color4);
@@ -17,30 +17,46 @@ body{
 
 .section-1{
 	background: var(--color3);
-	width: 100%;
+	background-image: url("imagenes/img1.jpg");
 	height: 500px;
-
 }
+.logo{
+	width: 200px;
+	margin: 30px;
+}
+.icons {
+	width: 150px;
+	margin: 30px;
+}
+
 
 .section-2{
 	background: var(--color2);
 	width: 100%;
-	height: 500px;
+	height: 300px;
 }
 .section-3{
 	background: var(--color1);
 	width: 100%;
-	height: 500px;
-}
+	height: 200px;
+}			
 .section-4{
-	width: 100%;
-	height: 500px;
+	width: 100%;	
+	height:900px;
     
+}
+.img-section4{
+	width: 50%;
+	height: 100%;
+}
+.text-section4{
+	width: 50%;
+	height: 100%;
 }
 .section-5{
 	background: var(--color2);
 	width: 100%;
-	height: 500px;
+	height: 1200px;
 }
 /*/////general//////*/
 
@@ -52,7 +68,9 @@ body{
 }
 
 .font-parraf{
-	
 	font-family: 'Montserrat', sans-serif;
 
+}
+.container{
+	display: flex;
 }
